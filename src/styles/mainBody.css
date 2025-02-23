@@ -1,0 +1,23 @@
+.mainBody {
+    --repeat: auto-fit;
+  }
+@media (min-width: calc(250px * 6)) {
+    .mainBody {
+      --repeat: 6;
+    }
+  }
+.mainBody{
+    height: 90vh;
+    width:100%;
+    background-image: url("./images/image2.webp");
+    background-repeat: no-repeat;
+    overflow: auto;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(var(--repeat, auto-fit), minmax(calc(250px * 1) , 1fr));
+    align-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}

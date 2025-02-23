@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.orbitronFont {
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.header{
+    height:10vh;
+    margin:auto;
+    box-sizing:border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#34a4d6, blue);
+  }
+  .headerText{
+    color:white;
+    font-size:24px; 
+  }
+  

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.orbitronFont {
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.score{
+    grid-column: 1 / -1;
+    display: flex;
+    margin:auto;
+    gap:2em;
+    color:white;
+    font-size:20px;
+}
